@@ -1,0 +1,359 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Broken Tech</title>
+
+<style>
+
+body {
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Main website container */
+#page {
+    width: 900px;
+    margin: 25px auto;
+    background-color: white;
+    border: 1px solid #999999;
+}
+
+/* Header */
+#header {
+    background-color: #eeeeee;
+    border-bottom: 1px solid #999999;
+    padding: 10px 15px;
+}
+
+#header h1 {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 26px;
+    color: #8B0000;
+}
+
+#header p {
+    margin: 3px 0 0 0;
+    color: #555555;
+    font-size: 12px;
+}
+
+/* Navigation */
+#nav {
+    background-color: #dddddd;
+    border-bottom: 1px solid #999999;
+    padding: 6px 15px;
+}
+
+#nav a {
+    color: #0000cc;
+    text-decoration: underline;
+    margin-right: 18px;
+}
+
+#nav a:visited {
+    color: #551a8b;
+}
+
+/* Main content */
+#content {
+    padding: 20px;
+    min-height: 500px;
+}
+
+/* Album information */
+#release {
+    display: flex;
+    gap: 25px;
+}
+
+/* Album cover */
+#cover {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+#cover img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 1px solid #777777;
+}
+
+/* Release information */
+#info {
+    flex: 1;
+}
+
+#info h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    margin: 0 0 4px 0;
+    color: #111111;
+}
+
+#info .artist {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#info table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#info td {
+    border-bottom: 1px solid #dddddd;
+    padding: 7px 5px;
+    vertical-align: top;
+}
+
+#info td:first-child {
+    width: 100px;
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Download area */
+#download {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #eeeeee;
+    border: 1px solid #aaaaaa;
+}
+
+#download p {
+    margin-top: 0;
+}
+
+/* Old-school button */
+.download-button {
+    display: inline-block;
+    background-color: #8B0000;
+    color: white;
+    border: 2px outset #cccccc;
+    padding: 7px 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #aa0000;
+}
+
+.download-button:active {
+    border-style: inset;
+}
+
+/* Tracklist */
+#tracks {
+    margin-top: 30px;
+}
+
+#tracks h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 4px;
+}
+
+.track {
+    padding: 7px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.track-number {
+    display: inline-block;
+    width: 30px;
+    color: #777777;
+}
+
+/* Footer */
+#footer {
+    border-top: 1px solid #999999;
+    background-color: #eeeeee;
+    padding: 10px 15px;
+    color: #666666;
+    font-size: 11px;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div id="page">
+
+    <!-- HEADER -->
+    <div id="header">
+        <h1>Broken Tech</h1>
+        <p>Netlabel & Music Curation <i>founded 2026</i></p>
+    </div>
+
+
+    <!-- NAVIGATION -->
+    <div id="nav">
+        <a href="index.html">Directory</a>
+        <a href="https://stga.bandcamp.com/">Bandcamp</a>
+        <a href="https://www.youtube.com/@BrokenTechOfficial'>YouTube</a>
+        <a href="https://soundcloud.com/st-g-a">SoundCloud</a>
+        <a href="https://www.tumblr.com/blog/cubescodes">Tumblr</a>
+        <a href="https://discord.gg/ZNKjfQejm">Discord</a>
+    </div>
+
+
+    <!-- CONTENT -->
+    <div id="content">
+
+        <div id="release">
+
+            <!-- ALBUM COVER -->
+            <div id="cover">
+                <img src="dsmcoverimg.jpg" alt="Dead Summer Mixtape album cover">
+            </div>
+
+
+            <!-- RELEASE INFORMATION -->
+            <div id="info">
+
+                <h2><i>Dead Summer Mixtape</i></h2>
+
+                <div class="artist">
+                    by <a href="https://r3alitymusic.bandcamp.com/">R3ALITY</a>
+                </div>
+
+                <table>
+
+                    <tr>
+                        <td>Release</td>
+                        <td>Mixtape</td>
+                    </tr>
+
+                    <tr>
+                        <td>Date</td>
+                        <td>15.06.2026</td>
+                    </tr>
+
+                    <tr>
+                        <td>Genre</td>
+                        <td>Hip-Hop/R&B</td>
+                    </tr>
+
+                    <tr>
+                        <td>Subgenres</td>
+                        <td>HexD, Digicore</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tracks</td>
+                        <td>12</td>
+                    </tr>
+
+                </table>
+
+
+                <!-- DOWNLOAD -->
+                <div id="download">
+
+                    <p>
+                        <b>Free Download</b><br>
+                        Directly From Broken Tech
+                    </p>
+
+                    <a class="download-button"
+                       href="deadsummermixtape_r3ality.zip"
+                       download>
+                        Download!
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TRACKLIST -->
+        <div id="tracks">
+
+            <h3>Tracklist</h3>
+
+            <div class="track">
+                <span class="track-number">01.</span>
+                Untitled
+            </div>
+
+            <div class="track">
+                <span class="track-number">02.</span>
+                I/Knew (finalver/file1)
+            </div>
+
+            <div class="track">
+                <span class="track-number">03.</span>
+                Dead Summer Mixtape AKA Title Track
+            </div>
+
+            <div class="track">
+                <span class="track-number">04.</span>
+                 Revenge
+            </div>
+
+            <div class="track">
+                <span class="track-number">05.</span>
+                Personal Computer (from elevator music EP by Stereo Gauge 11.07.2026) 
+            </div>
+
+            <div class="track">
+                <span class="track-number">06.</span>
+                No Title (2)
+            </div>
+
+            <div class="track">
+                <span class="track-number">07.</span>
+                No Title (3) AKA re do
+            </div>
+
+            <div class="track">
+                <span class="track-number" src="8zero.mp3">08.</span>
+                u n d e r a t e d
+            </div>
+
+            <div class="track">
+                <span class="track-number" src="9Sub-bass.mp3">09.</span>
+                u n d e r a t e d Pt.2 (not as fast)
+            </div>
+
+            <div class="track" src="10Leaflet.mp3">
+                <span class="track-number">10.</span>
+                Interlude AKA Reprise of I/Knew (finalver/file1)
+            </div>
+
+<div class="track" src="10Leaflet.mp3">
+                <span class="track-number">11.</span>
+                Iamnevergettinginafuckingvehiclewithyoueveragainafteryouleftthepassengersidedooropengoing122MPHdownthemotherfuckinghighway 
+            </div>
+
+<div class="track" src="10Leaflet.mp3">
+                <span class="track-number">12.</span>
+                nEVER eVER eVER aGAIN
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="footer">
+        Broken Tech &copy; 2026 |
+        This site is best viewed in a web browser.
+    </div>
+
+</div>
+
+</body>
+</html>
