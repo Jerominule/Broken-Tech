@@ -1,0 +1,1355 @@
+```html
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<title>Broken Tech - </title>
+
+<style>
+
+body {
+    background-color: #000000;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+a {
+    color: #cc3333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ff5555;
+}
+
+
+/* =========================================================
+   MAIN WEBSITE
+   ========================================================= */
+
+#page {
+    width: 900px;
+    margin: 25px auto;
+    background-color: #111111;
+    border: 1px solid #660000;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+#header {
+    background-color: #050505;
+    border-bottom: 1px solid #660000;
+    padding: 15px;
+}
+
+#header h1 {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: #cc0000;
+}
+
+#header p {
+    margin: 4px 0 0 0;
+    color: #777777;
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+#nav {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #660000;
+    padding: 7px 15px;
+}
+
+#nav a {
+    color: #dd4444;
+    margin-right: 18px;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+#content {
+    padding: 20px;
+}
+
+
+/* =========================================================
+   MAIN COLUMNS
+   ========================================================= */
+
+#main-area {
+    display: flex;
+    gap: 25px;
+}
+
+#main-column {
+    width: 625px;
+}
+
+#sidebar {
+    width: 190px;
+    flex-shrink: 0;
+}
+
+
+/* =========================================================
+   RELEASE INFORMATION
+   ========================================================= */
+
+#release {
+    display: flex;
+    gap: 25px;
+}
+
+
+/* =========================================================
+   ALBUM COVER
+   ========================================================= */
+
+#cover {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+#cover img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 1px solid #660000;
+}
+
+
+/* =========================================================
+   RELEASE INFORMATION
+   ========================================================= */
+
+#info {
+    flex: 1;
+}
+
+#info h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    margin: 0 0 4px 0;
+    color: #eeeeee;
+}
+
+#info .artist {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#info table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#info td {
+    border-bottom: 1px solid #333333;
+    padding: 7px 5px;
+    vertical-align: top;
+}
+
+#info td:first-child {
+    width: 100px;
+    font-weight: bold;
+    color: #777777;
+}
+
+
+/* =========================================================
+   DOWNLOAD
+   ========================================================= */
+
+#download {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #1a1a1a;
+    border: 1px solid #660000;
+}
+
+#download p {
+    margin-top: 0;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #990000;
+    color: white;
+    border: 2px outset #777777;
+    padding: 7px 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+.download-button:active {
+    border-style: inset;
+}
+
+
+/* =========================================================
+   CONTENT ADVISORY
+   ========================================================= */
+
+#advisory {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #660000;
+    background-color: #160808;
+}
+
+#advisory strong {
+    color: #dd3333;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+   ========================================================= */
+
+#description {
+    margin-top: 30px;
+    border-top: 1px solid #660000;
+    padding-top: 15px;
+}
+
+
+/* =========================================================
+   SECTION TITLES
+   ========================================================= */
+
+.section-title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: #cc3333;
+    border-bottom: 1px solid #660000;
+    padding-bottom: 4px;
+}
+
+
+/* =========================================================
+   BANDCAMP
+   ========================================================= */
+
+#bandcamp {
+    margin-top: 30px;
+}
+
+#bandcamp-box {
+    background-color: #080808;
+    border: 1px solid #333333;
+    padding: 15px;
+}
+
+
+/* =========================================================
+   STREAMING
+   ========================================================= */
+
+#streaming {
+    width: 350px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#streaming a {
+    display: inline-block;
+    background-color: #990000;
+    color: white;
+    border: 2px outset #777777;
+    padding: 6px 8px;
+    margin: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#streaming a:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+#streaming a:active {
+    border-style: inset;
+}
+
+
+/* =========================================================
+   TRACKLIST
+   ========================================================= */
+
+#tracks {
+    margin-top: 30px;
+}
+
+#tracks h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 21px;
+    color: #cc3333;
+    border-bottom: 1px solid #660000;
+    padding-bottom: 4px;
+}
+
+.track {
+    padding: 10px 7px;
+    border-bottom: 1px solid #292929;
+}
+
+.track:hover {
+    background-color: #181818;
+}
+
+.track-number {
+    display: inline-block;
+    width: 35px;
+    color: #777777;
+}
+
+.track-name {
+    display: inline-block;
+    width: 190px;
+    font-weight: bold;
+    color: #dddddd;
+}
+
+.track audio {
+    width: 380px;
+    vertical-align: middle;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+.sidebar-box {
+    border: 1px solid #660000;
+    background-color: #151515;
+    margin-bottom: 20px;
+}
+
+.sidebar-title {
+    background-color: #250707;
+    border-bottom: 1px solid #660000;
+    padding: 7px 9px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+    color: #cc3333;
+}
+
+.sidebar-content {
+    padding: 9px;
+    line-height: 1.5;
+}
+
+.sidebar-content a {
+    display: block;
+    margin-bottom: 6px;
+}
+
+
+/* =========================================================
+   OTHER RELEASES
+   ========================================================= */
+
+#other-releases {
+    margin-top: 35px;
+}
+
+.release-link {
+    padding: 9px;
+    border-bottom: 1px solid #292929;
+}
+
+.release-link span {
+    color: #777777;
+}
+
+
+/* =========================================================
+   EXTRAS / CREDITS
+   ========================================================= */
+
+#extras {
+    margin-top: 35px;
+}
+
+#extras table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#extras td {
+    padding: 7px;
+    border-bottom: 1px solid #292929;
+}
+
+#extras td:first-child {
+    width: 150px;
+    color: #777777;
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+#footer {
+    border-top: 1px solid #660000;
+    background-color: #080808;
+    padding: 12px 15px;
+    color: #666666;
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   HORIZONTAL RULE
+   ========================================================= */
+
+hr {
+    border: 0;
+    border-top: 1px solid #660000;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div id="page">
+
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+
+<div id="header">
+
+    <h1>Broken Tech</h1>
+
+    <!-- EDIT LABEL DESCRIPTION -->
+
+    <p>
+        <i></i>
+    </p>
+
+</div>
+
+
+<!-- =====================================================
+     NAVIGATION
+     ===================================================== -->
+
+<div id="nav">
+
+    <!-- EDIT LINKS -->
+
+    <a href="">
+        
+    </a>
+
+    <a href="">
+        
+    </a>
+
+    <a href="">
+        
+    </a>
+
+    <a href="">
+        
+    </a>
+
+    <a href="">
+        
+    </a>
+
+    <a href="">
+        
+    </a>
+
+</div>
+
+
+
+<!-- =====================================================
+     CONTENT
+     ===================================================== -->
+
+<div id="content">
+
+
+<div id="main-area">
+
+
+<!-- =====================================================
+     MAIN COLUMN
+     ===================================================== -->
+
+<div id="main-column">
+
+
+<!-- =====================================================
+     RELEASE
+     ===================================================== -->
+
+<div id="release">
+
+
+<!-- ALBUM COVER -->
+
+<div id="cover">
+
+    <!-- EDIT ALBUM COVER -->
+
+    <img
+        src=""
+        alt=""
+    >
+
+
+    <!-- STREAMING LINKS -->
+
+    <div id="streaming">
+
+        <!-- EDIT LINKS -->
+
+        <a href="">
+            Spotify
+        </a>
+
+        <a href="">
+            Apple
+        </a>
+
+        <a href="">
+            Amazon
+        </a>
+
+        <a href="">
+            SoundCloud
+        </a>
+
+        <a href="">
+            YouTube
+        </a>
+
+    </div>
+
+
+</div>
+
+
+
+<!-- RELEASE INFORMATION -->
+
+<div id="info">
+
+
+    <!-- EDIT RELEASE NAME -->
+
+    <h2>
+        <i></i>
+    </h2>
+
+
+    <!-- EDIT ARTIST -->
+
+    <div class="artist">
+
+        by <a href=""></a>
+
+    </div>
+
+
+    <table>
+
+
+        <!-- RELEASE TYPE -->
+
+        <tr>
+
+            <td>Release</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <!-- DATE -->
+
+        <tr>
+
+            <td>Date</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <!-- GENRE -->
+
+        <tr>
+
+            <td>Genre</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <!-- SUBGENRES -->
+
+        <tr>
+
+            <td>Subgenres</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <!-- TRACK COUNT -->
+
+        <tr>
+
+            <td>Tracks</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <!-- LABEL -->
+
+        <tr>
+
+            <td>Label</td>
+
+            <td>Broken Tech</td>
+
+        </tr>
+
+
+        <!-- CATALOG NUMBER -->
+
+        <tr>
+
+            <td>Catalog No.</td>
+
+            <td></td>
+
+        </tr>
+
+
+    </table>
+
+
+
+    <!-- DOWNLOAD -->
+
+    <div id="download">
+
+        <p>
+
+            <b>Free MP3 Download</b><br>
+
+            Directly From Broken Tech
+
+        </p>
+
+
+        <!-- EDIT DOWNLOAD FILE -->
+
+        <a
+            class="download-button"
+            href=""
+            download
+        >
+
+            Download!
+
+        </a>
+
+    </div>
+
+
+
+    <!-- CONTENT ADVISORY -->
+
+    <div id="advisory">
+
+        <strong>Content Advisory:</strong><br>
+
+        <!-- EDIT ADVISORY -->
+
+    </div>
+
+
+</div>
+
+</div>
+
+
+
+<!-- =====================================================
+     DESCRIPTION
+     ===================================================== -->
+
+<div id="description">
+
+    <div class="section-title">
+        About this release
+    </div>
+
+
+    <!-- EDIT DESCRIPTION -->
+
+    <p>
+        
+    </p>
+
+    <p>
+        
+    </p>
+
+</div>
+
+
+
+<!-- =====================================================
+     BANDCAMP
+     ===================================================== -->
+
+<div id="bandcamp">
+
+    <div class="section-title">
+        Listen on Bandcamp
+    </div>
+
+
+    <div id="bandcamp-box">
+
+
+        <!-- =============================================
+             PASTE BANDCAMP EMBED CODE HERE
+             ============================================= -->
+
+
+        
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     TRACKLIST
+     ===================================================== -->
+
+<div id="tracks">
+
+    <h3>Tracklist</h3>
+
+
+    <!-- TRACK 01 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            01.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+
+        <!-- EDIT AUDIO FILE -->
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 02 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            02.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 03 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            03.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 04 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            04.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 05 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            05.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 06 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            06.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 07 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            07.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 08 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            08.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 09 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            09.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+
+    <!-- TRACK 10 -->
+
+    <div class="track">
+
+        <span class="track-number">
+            10.
+        </span>
+
+        <span class="track-name">
+            
+        </span>
+
+        <audio controls preload="metadata">
+
+            <source
+                src=""
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     EXTRAS / CREDITS
+     ===================================================== -->
+
+<div id="extras">
+
+    <div class="section-title">
+        Information & Credits
+    </div>
+
+
+    <table>
+
+
+        <tr>
+
+            <td>Written by</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <tr>
+
+            <td>Produced by</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <tr>
+
+            <td>Artwork</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <tr>
+
+            <td>Mastering</td>
+
+            <td></td>
+
+        </tr>
+
+
+        <tr>
+
+            <td>Released by</td>
+
+            <td>Broken Tech</td>
+
+        </tr>
+
+
+    </table>
+
+</div>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     SIDEBAR
+     ===================================================== -->
+
+<div id="sidebar">
+
+
+    <!-- MORE FROM BROKEN TECH -->
+
+    <div class="sidebar-box">
+
+        <div class="sidebar-title">
+            More from Broken Tech
+        </div>
+
+
+        <div class="sidebar-content">
+
+
+            <!-- EDIT RELEASE 1 -->
+
+            <a href="">
+                
+            </a>
+
+            <span></span>
+
+
+            <hr>
+
+
+            <!-- EDIT RELEASE 2 -->
+
+            <a href="">
+                
+            </a>
+
+            <span></span>
+
+
+            <hr>
+
+
+            <!-- EDIT RELEASE 3 -->
+
+            <a href="">
+                
+            </a>
+
+            <span></span>
+
+
+            <br>
+
+
+            <a href="index.html">
+                → Release Directory
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- LABEL INFORMATION -->
+
+    <div class="sidebar-box">
+
+        <div class="sidebar-title">
+            Broken Tech
+        </div>
+
+
+        <div class="sidebar-content">
+
+            <b>Netlabel & Music Curation</b>
+
+            <br><br>
+
+
+            <!-- EDIT LABEL DESCRIPTION -->
+
+            
+
+            <br><br>
+
+
+            <a href="">
+                About the label
+            </a>
+
+            <a href="">
+                Submit music
+            </a>
+
+            <a href="">
+                Contact
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- QUICK LINKS -->
+
+    <div class="sidebar-box">
+
+        <div class="sidebar-title">
+            Links
+        </div>
+
+
+        <div class="sidebar-content">
+
+            <!-- EDIT LINKS -->
+
+            <a href="">
+                
+            </a>
+
+            <a href="">
+                
+            </a>
+
+            <a href="">
+                
+            </a>
+
+            <a href="">
+                
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- SITE INFORMATION -->
+
+    <div class="sidebar-box">
+
+        <div class="sidebar-title">
+            Site Info
+        </div>
+
+
+        <div class="sidebar-content">
+
+            Best viewed at
+            1024 × 768.
+
+            <br><br>
+
+
+            Last updated:
+
+            <br>
+
+
+            <!-- EDIT DATE -->
+
+            
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<div id="footer">
+
+    Broken Tech &copy; 2026 |
+
+    <!-- EDIT FOOTER -->
+
+    
+
+    <br><br>
+
+    <!-- EDIT LAST UPDATED -->
+
+    
+
+</div>
+
+
+
+<!-- =====================================================
+     AUTOMATIC TRACK PLAYBACK
+     ===================================================== -->
+
+<script>
+
+const tracks = document.querySelectorAll("#tracks audio");
+
+
+/*
+    Automatically play the next track
+    when the current track finishes.
+*/
+
+tracks.forEach(function(track, index) {
+
+    track.addEventListener("ended", function() {
+
+        if (index + 1 < tracks.length) {
+
+            tracks[index + 1].play();
+
+        }
+
+    });
+
+});
+
+
+/*
+    Only allow one track to play at a time.
+*/
+
+tracks.forEach(function(track) {
+
+    track.addEventListener("play", function() {
+
+        tracks.forEach(function(otherTrack) {
+
+            if (otherTrack !== track) {
+
+                otherTrack.pause();
+
+            }
+
+        });
+
+    });
+
+});
+
+</script>
+
+
+</body>
+
+</html>
+```
