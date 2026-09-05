@@ -1,1 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Broken Tech</title>
 
+<style>
+
+/* ========================================================= GENERAL ========================================================= */ body { background-color: #080808; color: #cccccc; font-family: Arial, Helvetica, sans-serif; font-size: 13px; margin: 0; } a { color: #cc3333; text-decoration: underline; } a:hover { color: #ff5555; } /* ========================================================= MAIN WEBSITE ========================================================= */ #page { width: 900px; margin: 25px auto; background-color: #111111; border: 1px solid #660000; } /* ========================================================= HEADER ========================================================= */ #header { background-color: #050505; border-bottom: 1px solid #660000; padding: 15px; } #header h1 { margin: 0; font-family: "Times New Roman", Times, serif; font-size: 30px; color: #cc0000; } #header p { margin: 4px 0 0 0; color: #777777; font-size: 12px; } /* ========================================================= NAVIGATION ========================================================= */ #nav { background-color: #1a1a1a; border-bottom: 1px solid #660000; padding: 7px 15px; } #nav a { color: #dd4444; margin-right: 18px; } /* ========================================================= MAIN CONTENT ========================================================= */ #content { padding: 20px; } /* ========================================================= RELEASE HEADER ========================================================= */ #release { display: flex; gap: 25px; } /* ALBUM COVER */ #cover { width: 350px; flex-shrink: 0; } #cover img { width: 350px; height: 350px; object-fit: cover; border: 1px solid #660000; } /* RELEASE INFORMATION */ #info { flex: 1; } #info h2 { font-family: "Times New Roman", Times, serif; font-size: 30px; margin: 0 0 4px 0; color: #eeeeee; } #info .artist { font-size: 15px; margin-bottom: 20px; } #info table { border-collapse: collapse; width: 100%; } #info td { border-bottom: 1px solid #333333; padding: 7px 5px; vertical-align: top; } #info td:first-child { width: 100px; font-weight: bold; color: #777777; } /* ========================================================= DOWNLOAD ========================================================= */ #download { margin-top: 20px; padding: 12px; background-color: #1a1a1a; border: 1px solid #660000; } #download p { margin-top: 0; } .download-button { display: inline-block; background-color: #990000; color: white; border: 2px outset #777777; padding: 7px 18px; font-weight: bold; text-decoration: none; } .download-button:hover { background-color: #cc0000; color: white; } .download-button:active { border-style: inset; } /* ========================================================= CONTENT ADVISORY ========================================================= */ #advisory { margin-top: 20px; padding: 10px; border: 1px solid #660000; background-color: #160808; } #advisory strong { color: #dd3333; } /* ========================================================= RELEASE DESCRIPTION ========================================================= */ #description { margin-top: 30px; border-top: 1px solid #660000; padding-top: 15px; } .section-title { font-family: "Times New Roman", Times, serif; font-size: 21px; color: #cc3333; border-bottom: 1px solid #660000; padding-bottom: 4px; } /* ========================================================= BANDCAMP ========================================================= */ #bandcamp { margin-top: 30px; } #bandcamp-box { background-color: #080808; border: 1px solid #333333; padding: 15px; } /* ========================================================= TRACKLIST ========================================================= */ #tracks { margin-top: 30px; } #tracks h3 { font-family: "Times New Roman", Times, serif; font-size: 21px; color: #cc3333; border-bottom: 1px solid #660000; padding-bottom: 4px; } .track { padding: 10px 7px; border-bottom: 1px solid #292929; } .track:hover { background-color: #181818; } .track-number { display: inline-block; width: 35px; color: #777777; } .track-name { display: inline-block; width: 190px; font-weight: bold; color: #dddddd; } .track audio { width: 500px; vertical-align: middle; } /* ========================================================= STREAMING LINKS ========================================================= */ #streaming { margin-top: 35px; } .streaming-link { display: inline-block; width: 145px; margin: 4px; padding: 8px; background-color: #181818; border: 1px solid #444444; text-align: center; } .streaming-link:hover { background-color: #250909; border-color: #990000; } /* ========================================================= OTHER RELEASES ========================================================= */ #other-releases { margin-top: 35px; } .release-link { padding: 9px; border-bottom: 1px solid #292929; } .release-link span { color: #777777; } /* ========================================================= CREDITS / EXTRAS ========================================================= */ #extras { margin-top: 35px; } #extras table { width: 100%; border-collapse: collapse; } #extras td { padding: 7px; border-bottom: 1px solid #292929; } #extras td:first-child { width: 150px; color: #777777; font-weight: bold; } /* ========================================================= FOOTER ========================================================= */ #footer { border-top: 1px solid #660000; background-color: #080808; padding: 12px 15px; color: #666666; font-size: 11px; }
+
+    
+/* Streaming buttons under album cover */
+
+#streaming {
+    width: 350px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#streaming a {
+    display: inline-block;
+    background-color: #990000;
+    color: white;
+    border: 2px outset #777777;
+    padding: 6px 8px;
+    margin: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#streaming a:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+#streaming a:active {
+    border-style: inset;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div id="page">
+
+    <!-- HEADER -->
+    <div id="header">
+        <h1>Broken Tech</h1>
+        <p>Netlabel & Music Curation <i>founded 2026</i></p>
+    </div>
+
+
+    <!-- NAVIGATION -->
+    <div id="nav">
+        <a href="index.html">Directory</a>
+        <a href="https://stga.bandcamp.com/">Bandcamp</a>
+        <a href="https://www.youtube.com/@BrokenTechOfficial">YouTube</a>
+        <a href="https://soundcloud.com/st-g-a">SoundCloud</a>
+        <a href="https://www.tumblr.com/blog/cubescodes">Tumblr</a>
+        <a href="https://discord.gg/ZNKjfQejm">Discord</a>
+        <a href="mailto:accentedcomputersbing.com@gmail.com">Contact Me</a>
+    </div>
+
+
+    <!-- CONTENT -->
+    <div id="content">
+
+        <div id="release">
+
+            <!-- ALBUM COVER -->
+            <div id="cover">
+                <img src="bt010.jpg" alt="IMAGE NOT FOUND">
+            </div>
+
+            <!-- RELEASE INFORMATION -->
+            <div id="info">
+
+                <h2><i>NightLight</i></h2>
+
+                <div class="artist">
+                    by <a href="https://soundcloud.com/thinkingspace">thinking</a>
+                </div>
+
+                <table>
+
+                    <tr>
+                        <td>Release</td>
+                        <td>Single</td>
+                    </tr>
+
+                    <tr>
+                        <td>Date</td>
+                        <td>04.09.2026</td>
+                    </tr>
+
+                    <tr>
+                        <td>Genre</td>
+                        <td>Electronic</td>
+                    </tr>
+
+                    <tr>
+                        <td>Subgenres</td>
+                        <td>Drum & Bass, Jungle</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tracks</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Advisory</td>
+                        <td>None</td>
+                    </tr>
+                </table>
+
+
+                <!-- DOWNLOAD -->
+                <div id="download">
+
+                    <p>
+                        <b>Free MP3 Download</b><br>
+                        Directly From Broken Tech
+                    </p>
+
+                    <a class="download-button"
+                       href="NightLight - thinking.mp3"
+                       download>
+                        Download!
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+      <div id="streaming"><a href="listenbt010.html">Streaming Platforms</a></div>
+        <!-- TRACKLIST -->
+        <div id="tracks">
+
+            <h3>Tracklist</h3>
+
+            <div class="track">
+                <span class="track-number">01.</span>
+                NightLight
+            </div>
+
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="footer">
+        Broken Tech &copy; 2026 |
+        This site is best viewed in a web browser.
+    </div>
+
+</div>
+
+</body>
+</html>
