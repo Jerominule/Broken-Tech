@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Broken Tech</title>
+<title>Release Name</title>
 
 <style>
 
@@ -55,12 +55,12 @@
     <!-- NAVIGATION -->
     <div id="nav">
         <a href="index.html">Directory</a>
-        <a href="https://stga.bandcamp.com/">Bandcamp</a>
+        <a href="https://brokentech.bandcamp.com/">Bandcamp</a>
         <a href="https://www.youtube.com/@BrokenTechOfficial">YouTube</a>
-        <a href="https://soundcloud.com/st-g-a">SoundCloud</a>
-        <a href="https://www.tumblr.com/blog/cubescodes">Tumblr</a>
-        <a href="https://discord.gg/ZNKjfQejm">Discord</a>
-        <a href="mailto:accentedcomputersbing.com@gmail.com">Contact Me</a>
+        <a href="https://soundcloud.com/brokentechofficial">SoundCloud</a>
+        <a href="discord.html">Discord</a>
+        <a href="mailto:jett.morine@icloud.com">Contact Me</a>
+      <a href="https://forms.gle/9fQnunnM5HRyiYT58">Submissions</a>
     </div>
 
 
@@ -71,7 +71,7 @@
 
             <!-- ALBUM COVER -->
             <div id="cover">
-                <img src="" alt="IMAGE NOT FOUND">
+                <img src="" alt="cover artwork error">
             </div>
 
             <!-- RELEASE INFORMATION -->
@@ -121,7 +121,7 @@
                 <div id="download">
 
                     <p>
-                        <b>Free MP3 Download</b><br>
+                        <b>Purchase Release</b><br>
                         Directly From Broken Tech
                     </p>
 
@@ -136,7 +136,7 @@
             </div>
 
         </div>
-      <div id="streaming"><a href="listenbt000.html">Streaming Platforms</a></div>
+      
         <!-- TRACKLIST -->
         <div id="tracks">
 
